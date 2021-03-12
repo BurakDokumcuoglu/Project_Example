@@ -30,7 +30,7 @@ namespace WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            //services.AddSingleton<IProductService, ProductManager>();
+            //services.AddSingleton<IProductService, ProductManager>();   // Web api'nin kendi ioc container'ýný kullanmak istersek gereken kodlar
             //services.AddSingleton<IProductDal, EfProductDal>();
 
 
